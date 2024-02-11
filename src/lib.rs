@@ -13,8 +13,7 @@ pub extern "C" fn _post_plugin() -> *mut dyn PluginTrait {
 pub struct QASystemExtend;
 impl PluginTrait for QASystemExtend {
     fn register(&self) -> Plugin {
-       let plugin= Plugin::default()
-       plugin
+        Plugin::default()
     }
     fn load(&self) {
         println!("插件加载")
