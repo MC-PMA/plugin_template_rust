@@ -9,5 +9,4 @@ crate-type = ["cdylib", "rlib"]
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
-
-rust_plugin_manager = { path = "https://github.com/banchen19/rust_plugin_manager/tree/master" }
+plugin_manager_lib = {git = "https://github.com/MC-PMA/plugin_manager_lib" }
