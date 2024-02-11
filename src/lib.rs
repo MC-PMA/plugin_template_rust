@@ -1,4 +1,4 @@
-use rust_plugin_manager::{Plugin, PluginTrait};
+use plugin_manager_lib::{Plugin, PluginTrait};
 
 #[no_mangle]
 pub extern "C" fn _post_plugin() -> *mut dyn PluginTrait {
